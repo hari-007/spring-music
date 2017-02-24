@@ -5,5 +5,6 @@ applications:
   disk_quota: 1G
   command: "java -jar -Dspring.profiles.active=<in-memory> build/libs/spring-music.jar"
   random-route: false
-  path: build/libs/spring-music.jar 
+  path: build/libs/spring-music.jar
+  buildpack: java_buildpack
 
